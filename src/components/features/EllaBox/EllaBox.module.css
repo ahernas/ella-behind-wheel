@@ -6,11 +6,10 @@
   background-size: cover;
   background-position: center;
   background-image: url("https://i.postimg.cc/QNQ3BFvL/DVWk9kp-TURBXy8y-OGMz-Y2-Mz-NDdi-Mz-I0-Mj-A3-M2-E1-Y2-Mx-Y2-Ji-M2-Y1-Nj-M1-ZC5qc-Ge-Sl-QMAAM0-DIM0-Bwp-UCz-QMHAMPDga-Ew-AQ.jpg");
-
-  img {
-    width: 800px;
-    height: 800px;
-  }
+}
+.background img {
+  width: 800px;
+  height: 800px;
 }
 
 .invitation {
@@ -28,13 +27,14 @@
 
 .contact {
   font-size: 22px;
-  span {
-    font-weight: bold;
-    margin-right: 10px;
-  }
-
-  img {
-    width: 150px;
-    height: 150px;
-  }
 }
+.contact span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+.contact img {
+  width: 150px;
+  height: 150px;
+}
+
+/*# sourceMappingURL=EllaBox.module.css.map */
