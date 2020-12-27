@@ -33,6 +33,20 @@ const EllaBox = () => (
         <div className={'d-flex align-items-center justify-content-center'}><a href="mailto:m@hern.as">m@hern.as</a></div>
       </div>
     </div>
+    <div className={'mt-3 mb-3 d-flex align-items-center justify-content-around container flex-wrap ' + styles.contact}>
+      <div className={'d-flex align-items-center text-center py-3 ' + styles.contactBox}>
+        <img src='https://i.postimg.cc/JGdL5cXZ/kasia.jpg'/>
+        <div className={'d-flex align-items-center justify-content-center mr-0 mt-2 ' + styles.name}>Katarzyna Garczarek</div>
+        <div className={'d-flex align-items-center justify-content-center'}>733&nbsp;707&nbsp;173</div>
+        <div className={'d-flex align-items-center justify-content-center'}><a href="mailto:kasia.garczarek@gmail.com">kasia.garczarek@gmail.com</a></div>
+      </div>
+      <div className={'d-flex align-items-center text-center py-3 '+ styles.contactBox}>
+        <img src='https://i.postimg.cc/0zT1LkcN/magda.jpg'/>
+        <div className={'d-flex align-items-center justify-content-center mr-0 mt-2 ' + styles.name}>Magdalena Garczarek</div>
+        <div className={'d-flex align-items-center justify-content-center'}>693&nbsp;977&nbsp;769</div>
+        <div className={'d-flex align-items-center justify-content-center'}><a href="mailto:magda.garczarek@gmail.com">magda.garczarek@gmail.com</a></div>
+      </div>
+    </div>
   </div>
 );
 
