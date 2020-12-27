@@ -2,6 +2,11 @@
 
 .root {
   background-color: #404040;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  right: 0;
 }
 .boxTopBar {
   display: flex;
