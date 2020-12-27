@@ -27,8 +27,9 @@
 }
 
 .contact {
-  font-size: 22px;
-  span {
+  font-size: 30px;
+
+  .name {
     font-weight: bold;
     margin-right: 10px;
   }
@@ -36,5 +37,9 @@
   img {
     width: 150px;
     height: 150px;
+  }
+
+  .contactBox {
+    flex-direction: column;
   }
 }

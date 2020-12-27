@@ -26,15 +26,18 @@
 }
 
 .contact {
-  font-size: 22px;
+  font-size: 30px;
 }
-.contact span {
+.contact .name {
   font-weight: bold;
   margin-right: 10px;
 }
 .contact img {
   width: 150px;
   height: 150px;
+}
+.contact .contactBox {
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=EllaBox.module.css.map */
