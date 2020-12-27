@@ -7,7 +7,7 @@ const TopBar = () => (
       <div className={styles.logo}>
         <img src='https://i.postimg.cc/KzBLt7yh/logo.png' alt='logo'/>
       </div>
-      <div className={'d-flex align-items-center ' + styles.list}>
+      <div className={'d-md-flex d-none align-items-center ' + styles.list}>
         <ul>
           <li>
             <a href="/">O kursie</a>

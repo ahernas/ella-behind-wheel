@@ -103,7 +103,7 @@ const Footer = ({ }) => (
           <div className='col-sm-12 col-md-4 empty'></div>
           <div className={'col-sm-6 col-md-4 text-center ' + styles.copyright}>
             <p className={styles.copyrightParagraph}>
-                            ©Copyright by Anna Hernas | All Rights Reserved
+                            ©Copyright by Anna &amp; Mike Hernas | All Rights Reserved
             </p>
           </div>
           <div className={'col-sm-6 col-md-4 text-right ' + styles.socialMedia}>
